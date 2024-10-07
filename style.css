@@ -209,7 +209,7 @@ font-size: 7vw;
     }
 
     .bloco-lanche {
-        width: 39.3%; /* Blocos ocupando quase a tela toda */
+        width: 39%; /* Blocos ocupando quase a tela toda */
         margin-bottom: 20px;
     margin: 2px; /* Adicionando margem para criar espaçamento entre os blocos */
     }
