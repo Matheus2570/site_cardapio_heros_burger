@@ -180,33 +180,29 @@ font-size: 7vw;
         align-items: center;
     }
     .menu-opcoes {
-        top: 32%; /* Ajuste para ficar logo abaixo do ícone */
-        right: 30%; /* Alinhado com a margem direita do ícone */
-        width: 35%;
+        top: 10%; /* Ajuste para ficar logo abaixo do ícone */
+        right: 26%; /* Alinhado com a margem direita do ícone */
+        width: 43%;
     
     }
 
-    .header h1 {
+    .header h1 {    
         font-size: 5vw;
         margin-top: 2%;
     }
 
     .imglogo {
-        width: 30vw;
-        margin-top: 10px;
-        margin-bottom: 10px;
+        display: none;
+  
     }
 
     .bx-caret-left-square {
         margin-left: 1%;
-        margin-top: 2%;
+        margin-top: -2%;
         font-size: 7vw;
         margin-right: 0;
     }
 
-    .cardapio {
-
-    }
 
     .bloco-lanche {
         width: 35%; /* Blocos ocupando quase a tela toda */
@@ -215,6 +211,7 @@ font-size: 7vw;
     }
 
     .bloco-lanche h2 {
+  margin-left: -5%;
         font-size: 1.2em;
     }
 
