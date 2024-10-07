@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     var menu = document.getElementById('menu-opcoes');
-    var icon = document.querySelector('.bx-caret-left-square');
+    var icon = document.querySelector('.bx-menu');
 
     icon.addEventListener('click', function() {
         if (menu.style.display === 'none' || menu.style.display === '') {
