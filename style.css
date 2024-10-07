@@ -139,10 +139,15 @@ margin-top: 5%;
         margin-top: 6%;
         font-size: 4vw;
     }
+    .menu-opcoes {
+        top: 13%; /* Ajuste para ficar logo abaixo do ícone */
+        right: 6%; /* Alinhado com a margem direita do ícone */
+        width: 35%;
     
+    }
 .bx-caret-left-square {
     margin-top: 6%;
-font-size: 5vw;
+font-size: 7vw;
     }
 
 
@@ -175,8 +180,8 @@ font-size: 5vw;
         align-items: center;
     }
     .menu-opcoes {
-        top: 40%; /* Ajuste para ficar logo abaixo do ícone */
-        right: 31%; /* Alinhado com a margem direita do ícone */
+        top: 32%; /* Ajuste para ficar logo abaixo do ícone */
+        right: 30%; /* Alinhado com a margem direita do ícone */
         width: 35%;
     
     }
@@ -193,8 +198,9 @@ font-size: 5vw;
     }
 
     .bx-caret-left-square {
+        margin-left: 1%;
         margin-top: 2%;
-        font-size: 5vw;
+        font-size: 7vw;
         margin-right: 0;
     }
 
@@ -205,6 +211,7 @@ font-size: 5vw;
     .bloco-lanche {
         width: 40%; /* Blocos ocupando quase a tela toda */
         margin-bottom: 20px;
+    margin: 1px; /* Adicionando margem para criar espaçamento entre os blocos */
     }
 
     .bloco-lanche h2 {
