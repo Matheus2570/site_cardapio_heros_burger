@@ -51,7 +51,7 @@ margin-top: 5%;
     right: 6%; /* Alinhado com a margem direita do ícone */
     box-shadow: 2px 5px 10px rgb(0, 0, 0);
     background-color: rgba(22, 22, 22, 0.945);
-    color: white;
+    color: rgb(196, 196, 196);
     padding: 10px;
     width: 20%;
     z-index: 10;
@@ -75,6 +75,10 @@ margin-top: 5%;
     height: 100%; /* Garante que o link preencha a altura do bloco */
     padding: 2%;
 
+}
+
+.menu-opcoes a:hover{
+    color: rgb(255, 255, 255);
 }
 
 .cardapio {
