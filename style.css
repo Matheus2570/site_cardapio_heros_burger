@@ -85,6 +85,7 @@ margin-top: 5%;
 }
 
 .bloco-lanche {
+    height: auto;
     background-color: rgba(255, 255, 255, 0.9);
     width: 25%;
     box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.1);
@@ -120,9 +121,7 @@ margin-top: 5%;
 }
 
 .bloco-lanche .preco {
-    position: absolute;
-    bottom: -4%;
-    right: 1.5%;
+    position: relative;
     font-size: 1.2em;
     font-weight: bold;
     color: #e67e22;
