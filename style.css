@@ -94,7 +94,8 @@ margin-top: 5%;
     position: relative;
     cursor: pointer; /* Indicativo de que o bloco é clicável */
     transition: transform 0.3s ease; /* Efeito visual ao passar o mouse */
-    margin: 4px; /* Adicionando margem para criar espaçamento entre os blocos */
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 .bloco-lanche:hover {
