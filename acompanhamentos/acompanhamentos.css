@@ -5,7 +5,7 @@ body {
     background-image: url(/site_cardapio_heros_burger/img/fundo_site1.jpg);
     background-attachment: fixed;
     background-size: cover;
-    animation: fundomechendo 120s infinite linear;
+    animation: fundomechendo 200s infinite linear;
 }
 
 .header {
@@ -17,7 +17,7 @@ body {
 }
 
 .header h1 {
-margin-top: 5%;
+    margin-top: 5%;
     color: rgb(255, 255, 255);
     font-size: 2.5vw;
 }
@@ -32,7 +32,7 @@ margin-top: 5%;
 }
 
 .bx-menu {
-margin-top: 5%;
+    margin-top: 5%;
     font-size: 3.5vw; 
     color: rgb(163, 163, 163);
     margin-right: 5%;
@@ -46,9 +46,9 @@ margin-top: 5%;
 
 .menu-opcoes {
     display: none;
-    position: absolute; /* Posicionado abaixo do ícone */
-    top: 18%; /* Ajuste para ficar logo abaixo do ícone */
-    right: 6%; /* Alinhado com a margem direita do ícone */
+    position: absolute;
+    top: 18%;
+    right: 6%;
     box-shadow: 2px 5px 10px rgb(0, 0, 0);
     background-color: rgba(22, 22, 22, 0.945);
     color: rgb(196, 196, 196);
@@ -69,15 +69,14 @@ margin-top: 5%;
 }
 
 .menu-opcoes a {
-    display: block; /* Faz com que o link ocupe todo o bloco */
-    text-decoration: none; /* Remove o sublinhado do link */
-    color: inherit; /* Faz o texto herdar a cor do pai */
-    height: 100%; /* Garante que o link preencha a altura do bloco */
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    height: 100%;
     padding: 2%;
-
 }
 
-.menu-opcoes a:hover{
+.menu-opcoes a:hover {
     color: rgb(255, 255, 255);
 }
 
@@ -85,7 +84,7 @@ margin-top: 5%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding: 2%
+    padding: 2%;
 }
 
 .bloco-acompanhamento {
@@ -96,14 +95,14 @@ margin-top: 5%;
     border-radius: 10px;
     padding: 15px;
     text-align: center;
-    cursor: pointer; /* Indicativo de que o bloco é clicável */
-    transition: transform 0.3s ease; /* Efeito visual ao passar o mouse */
+    cursor: pointer;
+    transition: transform 0.3s ease;
     margin-top: 1%;
     margin-bottom: 1%;
 }
 
 .bloco-acompanhamento:hover {
-    transform: scale(1.03); /* Efeito de hover */
+    transform: scale(1.03);
 }
 
 .bloco-acompanhamento img {
@@ -130,6 +129,7 @@ margin-top: 5%;
     font-weight: bold;
     color: #e67e22;
 }
+
 .footer {
     background-color: rgba(3, 37, 46, 0.9);
     padding: 2% 0;
@@ -156,17 +156,16 @@ margin-top: 5%;
     font-size: 2.2em;
     color: #fff;
     transition: color 0.3s ease;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 .footer_social a:hover {
     color: #e67e22; 
 }
+
 .footer_social p {
     font-size: 1.2em;
-   
 }
-
-
 
 @keyframes fundomechendo {
     0% { background-position: 0% 0%; }
@@ -174,34 +173,33 @@ margin-top: 5%;
     100% { background-position: 0% 0%; }
 }
 
-
 @media (max-width: 768px) {
     .header h1 {
         margin-top: 6%;
         font-size: 4vw;
     }
+
     .menu-opcoes {
-        top: 13%; 
-        right: 6%; 
+        top: 13%;
+        right: 6%;
         width: 35%;
-    
-    }
-.bx-menu {
-    margin-top: 6%;
-font-size: 7vw;
     }
 
+    .bx-menu {
+        margin-top: 6%;
+        font-size: 7vw;
+    }
 
     .imglogo {
         width: 20vw;
     }
 
     .cardapio {
-        flex-direction:row;
+        flex-direction: row;
     }
 
     .bloco-acompanhamento {
-        width: 35%; 
+        width: 35%;
         margin-bottom: 20px;
     }
 
@@ -209,38 +207,39 @@ font-size: 7vw;
         font-size: 1.2em;
     }
 
+    .bloco-acompanhamento .descricao {
+        font-size: 0.9em;
+    }
+
     .footer .container {
         display: flex;
         flex-direction: column;
     }
+
     .footer_social p {
         font-size: 1.1em;
-       
     }
 }
 
-/* Responsividade para Celulares */
 @media (max-width: 480px) {
     .header {
         flex-direction: column;
         align-items: center;
-     
-    }
-    .menu-opcoes {
-        top: 10%; 
-        right: 23%; 
-        width: 48%;
-    
     }
 
-    .header h1 {    
-        font-size: 7vw;
+    .menu-opcoes {
+        top: 10%;
+        right: 23%;
+        width: 48%;
+    }
+
+    .header h1 {
+        font-size: 5vw;
         margin-top: 2%;
     }
 
     .imglogo {
         display: none;
-  
     }
 
     .bx-menu {
@@ -250,14 +249,14 @@ font-size: 7vw;
         margin-right: 0;
     }
 
-
     .bloco-acompanhamento {
-        width: 35%; 
+        width: 45%;
         margin-bottom: 20px;
-    margin: 4px; 
+        margin: 4px;
+    }
 
     .bloco-acompanhamento h2 {
-  margin-left: -5%;
+        margin-left: -5%;
         font-size: 1.2em;
     }
 
@@ -269,18 +268,16 @@ font-size: 7vw;
         bottom: -5%;
         font-size: 1em;
     }
+
     .footer_contact p {
         font-size: 0.8em;
     }
-    
+
     .footer_social a {
         font-size: 1.6em;
-        color: #fff;
-        transition: color 0.3s ease;
     }
+
     .footer_social p {
         font-size: 0.8em;
-       
     }
-}
 }
