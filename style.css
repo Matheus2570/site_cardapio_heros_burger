@@ -130,6 +130,42 @@ margin-top: 5%;
     font-weight: bold;
     color: #e67e22;
 }
+.footer {
+    background-color: rgba(3, 37, 46, 0.9);
+    padding: 2% 0;
+    color: #fff;
+    text-align: center;
+    font-size: 1em;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 5%;
+}
+
+.footer_contact p {
+    margin: 5px;
+    font-size: 1.1em;
+}
+
+.footer_social a {
+    margin: 0 5px;
+    font-size: 2em;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.footer_social a:hover {
+    color: #e67e22; 
+}
+
+
+
+
+
 
 @keyframes fundomechendo {
     0% { background-position: 0% 0%; }
@@ -174,6 +210,11 @@ font-size: 7vw;
 
     .bloco-lanche .descricao {
         font-size: 0.9em;
+    }
+
+    .footer .container {
+        display: flex;
+        flex-direction: column;
     }
 }
 
@@ -227,5 +268,15 @@ font-size: 7vw;
     .bloco-lanche .preco {
         bottom: -5%;
         font-size: 1em;
+    }
+
+    .footer_contact p {
+        font-size: 1em;
+    }
+    
+    .footer_social a {
+        font-size: 1.8em;
+        color: #fff;
+        transition: color 0.3s ease;
     }
 }
