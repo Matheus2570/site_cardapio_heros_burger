@@ -1,0 +1,231 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(/site_cardapio_heros_burger/img/fundo_site1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    animation: fundomechendo 120s infinite linear;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(3, 37, 46, 0.929);
+    padding: 1%;
+}
+
+.header h1 {
+margin-top: 5%;
+    color: rgb(255, 255, 255);
+    font-size: 2.5vw;
+}
+
+.imglogo {
+    max-width: 100%;
+    width: 14vw;
+    height: auto;
+    border-radius: 50%;
+    margin-left: 2%;
+    box-shadow: 2px 5px 10px rgb(0, 0, 0);
+}
+
+.bx-menu {
+margin-top: 5%;
+    font-size: 3.5vw; 
+    color: rgb(163, 163, 163);
+    margin-right: 5%;
+    cursor: pointer;
+    transition: color 0.5s ease;
+}
+
+.bx-menu:hover {
+    color: rgb(255, 255, 255);
+}
+
+.menu-opcoes {
+    display: none;
+    position: absolute; /* Posicionado abaixo do ícone */
+    top: 18%; /* Ajuste para ficar logo abaixo do ícone */
+    right: 6%; /* Alinhado com a margem direita do ícone */
+    box-shadow: 2px 5px 10px rgb(0, 0, 0);
+    background-color: rgba(22, 22, 22, 0.945);
+    color: rgb(196, 196, 196);
+    padding: 10px;
+    width: 20%;
+    z-index: 10;
+}
+
+.menu-opcoes ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-opcoes ul li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.menu-opcoes a {
+    display: block; /* Faz com que o link ocupe todo o bloco */
+    text-decoration: none; /* Remove o sublinhado do link */
+    color: inherit; /* Faz o texto herdar a cor do pai */
+    height: 100%; /* Garante que o link preencha a altura do bloco */
+    padding: 2%;
+
+}
+
+.menu-opcoes a:hover{
+    color: rgb(255, 255, 255);
+}
+
+.cardapio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2%
+}
+
+.bloco-bebida {
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 24%;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    cursor: pointer; /* Indicativo de que o bloco é clicável */
+    transition: transform 0.3s ease; /* Efeito visual ao passar o mouse */
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.bloco-bebida:hover {
+    transform: scale(1.03); /* Efeito de hover */
+}
+
+.bloco-bebida img {
+    width: 50%;
+    border-radius: 10px 10px 0 0;
+}
+
+.bloco-bebida h2 {
+    margin: 5%;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.bloco-bebida .descricao {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.bloco-bebida .preco {
+    text-align: right;
+    position: relative;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #e67e22;
+}
+
+@keyframes fundomechendo {
+    0% { background-position: 0% 0%; }
+    50% { background-position: 100% 100%; }
+    100% { background-position: 0% 0%; }
+}
+
+
+@media (max-width: 768px) {
+    .header h1 {
+        margin-top: 6%;
+        font-size: 4vw;
+    }
+    .menu-opcoes {
+        top: 13%; /* Ajuste para ficar logo abaixo do ícone */
+        right: 6%; /* Alinhado com a margem direita do ícone */
+        width: 35%;
+    
+    }
+.bx-menu {
+    margin-top: 6%;
+font-size: 7vw;
+    }
+
+
+    .imglogo {
+        width: 20vw;
+    }
+
+    .cardapio {
+        flex-direction:row;
+    }
+
+    .bloco-bebida {
+        width: 35%; /* Blocos ocupando mais espaço em telas menores */
+        margin-bottom: 20px;
+    }
+
+    .bloco-bebida h2 {
+        font-size: 1.2em;
+    }
+
+    .bloco-bebida .descricao {
+        font-size: 0.9em;
+    }
+}
+
+/* Responsividade para Celulares */
+@media (max-width: 480px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+     
+    }
+    .menu-opcoes {
+        top: 10%; /* Ajuste para ficar logo abaixo do ícone */
+        right: 23%; /* Alinhado com a margem direita do ícone */
+        width: 48%;
+    
+    }
+
+    .header h1 {    
+        font-size: 7vw;
+        margin-top: 2%;
+    }
+
+    .imglogo {
+        display: none;
+  
+    }
+
+    .bx-menu {
+        margin-left: 1%;
+        margin-top: -2%;
+        font-size: 11vw;
+        margin-right: 0;
+    }
+
+
+    .bloco-bebida {
+        width: 35%; /* Blocos ocupando quase a tela toda */
+        margin-bottom: 20px;
+    margin: 4px; /* Adicionando margem para criar espaçamento entre os blocos */
+    }
+
+    .bloco-bebida h2 {
+  margin-left: -5%;
+        font-size: 1.2em;
+    }
+
+    .bloco-bebida .descricao {
+        font-size: 0.9em;
+    }
+
+    .bloco-bebida .preco {
+        bottom: -5%;
+        font-size: 1em;
+    }
+}
