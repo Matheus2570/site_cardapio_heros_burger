@@ -204,12 +204,13 @@ font-size: 7vw;
         font-size: 1.2em;
     }
 
-    .bloco-bebida .descricao {
-        font-size: 0.9em;
-    }
     .footer .container {
         display: flex;
         flex-direction: column;
+    }
+    .footer_social p {
+        font-size: 1.1em;
+       
     }
 }
 
@@ -221,8 +222,8 @@ font-size: 7vw;
      
     }
     .menu-opcoes {
-        top: 10%; /* Ajuste para ficar logo abaixo do ícone */
-        right: 23%; /* Alinhado com a margem direita do ícone */
+        top: 10%; 
+        right: 23%; 
         width: 48%;
     
     }
@@ -246,9 +247,9 @@ font-size: 7vw;
 
 
     .bloco-bebida {
-        width: 35%; /* Blocos ocupando quase a tela toda */
+        width: 35%; 
         margin-bottom: 20px;
-    margin: 4px; /* Adicionando margem para criar espaçamento entre os blocos */
+    margin: 4px;
     }
 
     .bloco-bebida h2 {
@@ -265,12 +266,16 @@ font-size: 7vw;
         font-size: 1em;
     }
     .footer_contact p {
-        font-size: 1em;
+        font-size: 0.8em;
     }
     
     .footer_social a {
-        font-size: 1.8em;
+        font-size: 1.6em;
         color: #fff;
         transition: color 0.3s ease;
+    }
+    .footer_social p {
+        font-size: 0.8em;
+       
     }
 }

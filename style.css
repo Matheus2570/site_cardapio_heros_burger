@@ -234,8 +234,8 @@ font-size: 7vw;
      
     }
     .menu-opcoes {
-        top: 10%; /* Ajuste para ficar logo abaixo do ícone */
-        right: 23%; /* Alinhado com a margem direita do ícone */
+        top: 10%; 
+        right: 23%; 
         width: 48%;
     
     }
@@ -259,9 +259,9 @@ font-size: 7vw;
 
 
     .bloco-lanche {
-        width: 35%; /* Blocos ocupando quase a tela toda */
+        width: 35%; 
         margin-bottom: 20px;
-    margin: 4px; /* Adicionando margem para criar espaçamento entre os blocos */
+    margin: 4px; 
     }
 
     .bloco-lanche h2 {
