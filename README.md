@@ -27,4 +27,4 @@ O projeto é composto pelos seguintes arquivos principais:
 
 1. Clone este repositório para o seu computador:
    ```bash
-   git clone https://github.com/seu-usuario/herosburger.git
+   https://matheus2570.github.io/site_cardapio_heros_burger/
