@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
-    var menu = document.getElementById('menu-opcoes');
-    var icon = document.querySelector('.bx-menu');
+    let menu = document.getElementById('menu-opcoes');
+    let icon = document.querySelector('.bx-menu');
 
     icon.addEventListener('click', function() {
         if (menu.style.display === 'none' || menu.style.display === '') {
