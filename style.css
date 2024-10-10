@@ -12,7 +12,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: rgba(3, 37, 46, 0.929);
+    background-color: rgba(2, 29, 36, 0.9);
     padding: 1%;
 }
 
@@ -131,7 +131,8 @@ margin-top: 5%;
     color: #e67e22;
 }
 .footer {
-    background-color: rgba(3, 37, 46, 0.9);
+    background-color: rgba(2, 29, 36, 0.9);
+
     padding: 2% 0;
     color: #fff;
     text-align: center;
