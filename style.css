@@ -232,18 +232,14 @@ font-size: 7vw;
 /* Responsividade para Celulares */
 @media (max-width: 480px) {
     .header {
+        flex-direction: column;
         align-items: center;
-        h1{
-            margin-left: 3vw;
-            margin-top: 3vw;
-        }
     }
- 
+
     .menu-opcoes {
-        top: 7%; 
-        right: 3%; 
+        top: 10%;
+        right: 23%;
         width: 48%;
-    
     }
 
     .header h1 {    
