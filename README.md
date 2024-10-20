@@ -25,6 +25,6 @@ O projeto é composto pelos seguintes arquivos principais:
 
 ## Como Usar
 
-1. Clone este repositório para o seu computador:
+1. Cole esse link no seu Google:
    ```bash
    https://matheus2570.github.io/site_cardapio_heros_burger/
