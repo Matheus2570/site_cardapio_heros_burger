@@ -23,7 +23,7 @@ O projeto é composto pelos seguintes arquivos principais:
 - CSS3
 - [Boxicons](https://boxicons.com/) - Para ícones.
 
-## Como Usar
+## Como Vizualizar
 
 1. Cole esse link no seu Google:
    ```bash
