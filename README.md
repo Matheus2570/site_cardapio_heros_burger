@@ -11,7 +11,7 @@ O projeto é composto pelos seguintes arquivos principais:
 - `script.js`:  O arquivo de script para funcionalidades adicionais.
 - Imagens de lanches e fundo que são usadas para embelezar o site.
 
-## Funcionalidades
+## Funcionalidades ✅
 
 - **Visualização dos Lanches**: Cada lanche é apresentado com uma imagem, descrição e preço.
 - **Menu de Navegação**: Inclui links para diferentes categorias do cardápio, como Lanches, Bebidas, Acompanhamentos e Combos.
@@ -23,7 +23,7 @@ O projeto é composto pelos seguintes arquivos principais:
 - CSS3
 - [Boxicons](https://boxicons.com/) - Para ícones.
 
-## Como Vizualizar
+## Como Visualizar 📌
 
 1. Cole esse link no seu Google:
    ```bash
