@@ -21,10 +21,10 @@ O projeto é composto pelos seguintes arquivos principais:
 
 - HTML5
 - CSS3
-- [Boxicons](https://boxicons.com/) - Para ícones.
+- Boxicons - Para ícones
 
 ## Como Visualizar 📌
 
 1. Cole esse link no seu Google:
    ```bash
-   https://matheus2570.github.io/site_pizzaria/
+   https://matheus2570.github.io/site_cardapio_heros_burger/
