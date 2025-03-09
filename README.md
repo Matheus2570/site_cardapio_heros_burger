@@ -2,7 +2,7 @@
 
 Este é o projeto do cardápio online para o HerosBurger, uma hamburgueria que oferece uma variedade de lanches, bebidas e acompanhamentos. O site é construído com HTML e CSS, proporcionando uma interface intuitiva e atraente para os clientes.
 
-## Estrutura do Projeto
+## 📂Estrutura do Projeto
 
 O projeto é composto pelos seguintes arquivos principais:
 
